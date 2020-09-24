@@ -1,0 +1,14 @@
+#!/bin/bash
+# This file exists so we can easily run our test by executing this script to 
+# return predermined results instead of executing the real speedtest cli.
+
+# Let us force an error
+if [[ ! -z $SPEEDTEST_SCRIPT_ERROR ]]; then
+  exit 1
+fi
+
+
+if [[ ! -z $SPEEDTEST_SCRIPT_VALUE ]]; then
+  echo $SPEEDTEST_SCRIPT_VALUE
+exit 0;
+fi
