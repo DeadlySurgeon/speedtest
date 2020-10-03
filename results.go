@@ -9,7 +9,7 @@ type Results struct {
 	Ping       Ping      `json:"ping"`
 	Download   Link      `json:"download"`
 	Upload     Link      `json:"upload"`
-	PacketLoss int       `json:"packetLoss"`
+	PacketLoss float64   `json:"packetLoss"`
 	ISP        string    `json:"isp"`
 	Interface  Interface `json:"interface"`
 	Server     Server    `json:"server"`
