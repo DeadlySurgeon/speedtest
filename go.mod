@@ -1,4 +1,4 @@
-module github.com/deadlysurgeon/speedtest
+module github.com/deadlysurgeon/speedtest/v2
 
 go 1.15
 
